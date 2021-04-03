@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  background: #2d2e30;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#image {
+  width: 272px;
+  margin-bottom: 40px;
+}
+
+#top-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  padding: 25px 0px;
+}
+
+#top-nav a {
+  display: block;
+  margin: 0 8px;
+}
+
+#profil-icon {
+  height: 32px;
+  width: 32px;
+  background: #0098a7;
+  border-radius: 50%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: Arial;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 90%;
+}
+
+#input-search {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border-radius: 50px;
+  padding-inline-end: 44px;
+  padding-inline-start: 52px;
+  border: none;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+label {
+  position: relative;
+  width: 530px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.scare {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index: 2;
+
+}
+
+.left-icon {
+  left: 0;
+  margin-left: 10px;
+}
+
+.right-icon {
+  right: 0;
+
+  margin-right: 10px;
+}
+
+#icons-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#icons-list a {
+  display: flex;
+  flex: 33.333%;
+  justify-content: stretch;
+  align-items: center;
+  flex-direction: column;
+ padding-top: 15px;
+
+
+}
+
+#icons-list a:hover {
+  background-color: #38393b;
+  border-radius: 3%;
+}
+
+#icons-list a div {
+  width: 50px;
+  height: 50px;
+  background: #1d1e21;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#icons-list a img {
+  width: 30px;
+  height: 30px;
+}
+
+#bottom-nav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+
+}
+
+#fab-btn {
+  background-color: #4e95db;
+  border: none;
+  color: #1d1e21;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 13px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#fab-btn img {
+  width: 15px;
+  margin-right: 10px;
+}
